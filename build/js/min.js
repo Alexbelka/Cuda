@@ -1,0 +1,1 @@
+(void console.log("Hello"))(void console.log("Goodbye"));
