@@ -1,0 +1,44 @@
+.about-range{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-auto-rows:minmax(100px,auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 143px;
+}
+
+.about-range__item{
+  display: grid;
+  grid-template-columns:18% 82%;
+
+}
+
+.about-range__item-pic{
+  background-color: #878787;
+  width: 96px;
+  height: 96px;
+  border-radius:50%;
+}
+
+.about-range__item-text{
+  color:rgb(255,255,255);
+  padding:15px 15px 15px 48px;
+}
+
+.about-range__item-text p{
+  font-size: 21px;
+  line-height: 31px;
+  font-style: italic;
+}
+
+.about-range__item-text h5{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.about-range__item-text span{
+  color:rgb(255,221,153);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}

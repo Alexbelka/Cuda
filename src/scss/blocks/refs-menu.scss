@@ -1,0 +1,21 @@
+.refs-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.refs-menu{
+  min-width: 130px;
+  display: flex;
+  margin:auto;
+  justify-content: space-between;
+}
+
+
+.refs-menu__item{
+  height:32px;
+  width:32px;
+  background-color:rgb(189,209,223);
+}
+
+

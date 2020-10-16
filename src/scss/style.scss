@@ -1,3 +1,27 @@
-*{
-
-}
+@import "globals/fonts";
+@import "globals/normalize";
+@import "globals/scafoldings";
+@import "globals/visually-hidden";
+@import "blocks/wrapper";
+@import "blocks/header";
+@import "blocks/outer-container";
+@import "blocks/inner-container";
+@import "blocks/navigation-menu";
+@import "blocks/header-state";
+@import "blocks/header-btn";
+@import "blocks/header-navigation";
+@import "blocks/main";
+@import "blocks/service";
+@import "blocks/team";
+@import "blocks/team-menu";
+@import "blocks/refs-menu";
+@import "blocks/skills";
+@import "blocks/rating";
+@import "blocks/portfolio";
+@import "blocks/portfolio-menu";
+@import "blocks/portfolio-inner";
+@import "blocks/portfolio-slides";
+@import "blocks/about";
+@import "blocks/about-range";
+@import "blocks/touch";
+@import "blocks/footer";

@@ -6,10 +6,297 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="build/css/style.css">
 </head>
 <body>
-
-
+<div class="wrapper">
+    <header class="header">
+        <div class="inner-container">
+            <nav class="header-navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="116.406" height="36.281"><path d="M33.372 25.662l-1.147 6.086a32.646 32.646 0 01-15.432 4.52C6.755 36.604.014 30.677.014 20.322.014 8.207 8.34-.147 20.714-.011a22.4 22.4 0 0112.042 3.308l-3.353 7.631a17.794 17.794 0 00-6.7-1.236c-6.11 0-9.092 3.965-9.263 9.087-.176 5.293 3.095 8.8 7.94 9.263a20.3 20.3 0 0011.992-2.38zm22.45 1.884c-.254 1.821.421 2.946 4.655 1.093l1.522 4.5c-5.293 2.492-8.506 3.131-10.623 3.131-3.219 0-5.125-1.313-5.844-3.218a10.81 10.81 0 01-7.58 3.218c-4.489 0-7.2-3.3-6.564-7.749l2.16-15.245h10.248l-1.822 12.831a1.688 1.688 0 001.61 2.075 2.379 2.379 0 002.159-2.075l1.821-12.831h10.248zm20.367-12.065l1.524-11.052h10.248L84.7 27.719c-.211 1.651.545 2.887 4.779.594l1.676 4.764a21.57 21.57 0 01-10.9 3.2c-3.133-.041-5.124-1.44-5.8-3.515a8.988 8.988 0 01-7.241 3.515c-4.743 0-7.5-4.4-7.5-9.909 0-7.749 4.954-13.635 11.136-13.635a6.189 6.189 0 015.339 2.748zm-.381 8.385c0-1.779-.974-3.176-2.5-3.176-1.99 0-3.557 2.033-3.557 4.362 0 1.778.932 3.176 2.5 3.176 1.948-.005 3.557-2.037 3.557-4.366zm29.723-8.385l.3-2.2h10.248l-2.033 14.44c-.212 1.651.805 1.948 2.371 1.567l-.361 4.385a10.52 10.52 0 01-6.456 2.6c-3.134 0-5.124-1.44-5.8-3.515a8.986 8.986 0 01-7.24 3.515c-4.744 0-7.5-4.4-7.5-9.909 0-7.58 4.954-13.635 11.137-13.635a6.19 6.19 0 015.334 2.752zm-.381 8.385c0-1.779-.974-3.176-2.5-3.176-1.99 0-3.557 2.033-3.557 4.362 0 1.778.932 3.176 2.5 3.176 1.95-.005 3.56-2.037 3.56-4.366z" fill="#fff" fill-rule="evenodd"/></svg>
+                <ul class="navigation-menu">
+                    <li class="navigation-menu__item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#">Work</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="header-state">
+                Hi there! We are the new kids on the block<br>
+                and we build awesome websites and mobile apps.
+            </h1>
+            <button class="header-btn">Work with us!</button>
+        </div>
+    </header>
+<main class="main">
+    <section class="services">
+        <h2 class="average-state average-state--white">Services we provide</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--white">
+            We are working with both individuals and business from all over
+            the globe<br> to create awesome websites and applications.
+        </p>
+        <ul class="inner-services">
+            <li class="inner-services__item" >
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="124"><image data-name="Shape 21" width="120" height="124" xlink:href="data:img/png;base64,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"/></svg>
+                </div>
+                <h3 class="small-state small-state--color small-state--position">Branding</h3>
+                <p class="small-text small-text--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, distinctio doloremque,pudiandae saepe?</p>
+            </li>
+            <li class="inner-services__item">
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="131"><image data-name="Shape 18" width="90" height="131" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAACDCAYAAAANmQzlAAARfklEQVR4nO2dC3Qc1XnH//PY92r1srFiLFu2/BDCGBxjpwpgAw4kBxMeMQROCT4l0J62tAkxxQ3hEVqCA+YR0ob0NGnSxISkCS3NgaQYTIAAIcAxwg+wjTG2sS3Z0uqx0q72OY+eO7orza52tTuvuyuF3zl77J2dmbvz36tvvvt9373DqaqKStLz6COsW68H8En6aqbv6wB4AAwC6AVwAEAngF0AYnY0KtpxkinAYgBX0ddyA19XBvAHAL8E8BSAk2YvlZ8OKk7CGgDPA3gfwH0GRSYIAFYDeAzAcQCPA2gjHxi1BNNV6HYAL9PXRTadk4j+JQDvAfjZSN/AqfGBCBRZLuvg6SY0MYV3Uvu6xqE2+HQ8cZ2czuzNJJJfjvX0ITkcK9nDp5PQ5Ka2HcC99MbmCETQ5HCUnDoE4Eeqqm5NRWPeWE8YmUSyaJPTRehWAK8DON/phlKk98qKftP1AF5QZKWOmJJYuB9yOjPhuOkg9EIAv8/epJxEkWSkRuKFWjgHwIsAaonIROzE4FDODzLVhZ4J4FkAp7JoLDk0TGxHsY+XUxfQTd6k4wlEe8JIRWPaMVNZaOIF/Jz2aMeRUilkkqlSzVwI4MHsm1F7HkO0t29KC/0PAD7DqrHkULTcXf8ewDr9BmJyKjoE/yBc9pfPIfTEDxfT4bHXsS+nIx2LI0HMRvl0kXsGt+mumLrlXu2gKdmj021n/Lfq8TIRWVUUJKOGwx3knnG7fsOU69HuA3vvSS9u/yYUGa6jR8h7CGHTIYiSJCLDSBf2NEoxAqAFQB+mmtCePZ3+zPxFg0qwxq3fzg8NaoK7Dh8El0nb9v3kjIRYb5+VU9wF4FuYakK7jhx8OtOy8PPFPuekDFyHP4B7727wMXP2X89I3wCklKUf7hjt1cqUEdrz3s629OLT96ouF1dyZ1WF6+hhuPfugjBgrkdmkknE+yOmjs3jAhLcmjLxaLm+8ddliUzgOGTmLdBe4skurYeLJ46X3xjxf8t350qxbsoI7d63+9p02xlLzBwrNZ2qvYTBfrjf3QnX0UMlj0nF4prvaxOkR1e/jfbs6eSlOfMG5PrGWjvaFCID8OzaAfH4RwU/J/EJMnS2URcJQKDqe7Tq8z9kl8gEua4B8TUXa7bb885bmmnRQ0KgNnc+ovGSqu7Rnvd21qcXLO5VfX7HOoTYfQzed94EHxlENvLmAJdUdY+WQ3U/d1JkgjS7GbFPzIHr0AFktm9zqpnGqh2CCwN9C6XZcz7LpDGOw1BzK7q/sAEj7Wdq722mpmqFVnnhcQii7VdcsC0VGEpmoLg9iJz7GfReeR3SM5vsbEKqVhv9aVpPwYThZEZ75aCqCO7pRGjHH7QRp0WuqcYezUNRHmPVmKyoiKYKCMlxiC1bgd6rNiA1u9lqMz3VKPQG8PxZrBqLJNKTZKcAKVSHvku/iMg5a6GKLrPNfFhtpiNEq4psNZDFSEkKwrHiJQL5iEODqH/pWbh7TxhphviLM7ih12wbC1imZ/Gx+wH8I7P2oklkcksHSqMoqHnnTYQ6/zhZolbPMwAuqxrTkaxZd7U/svVWThlh0t5IWjIuMoHnEV3RgfDnr4EcDJVzhOacV0uP5mVXS7+QOVKn8kEkQ1ciXvslSJ52RxpTVBUnh5Pav1bg0ynUv7wN3iMHizYFYK7ocXdVRY9OBS/aQkQm/+eUGHyRx9H40WfRcOwL8A7/DzjVvqwJIZqULItMIH53/8WXY6jjfKh8QSlJJWuXtzZU+R6d9nfUiakDYV7uLzrUVoQGJOo2IF53g/Z/K0iKip7hBOx2Adw93Wh44RkIIzmJ3AvdAf9LvrpQ5bPgrkTnpslEhmZXBhDofxQzDv0ZanrvhJA5aro9zZ0zfXRx0rNmo3f9BqROnZfd57Wuv7r1JW8oOHoNDrRphLmcmvpquftzagL+yE8x4/Bq1J64Ga7kHkONJSUZyYxtAf0JKF4f+i5Zj9iZK8lH39S+MzUplY7ebQbgN36YDG/0ae2V9q9GrPEWZHwrJz1C1Xqz5aF0aTgOiXmtJ4c+tfpFXhecqmSPXgXgz62exB1/Rbtp1nddD1dyV9H9RlISJDPunEE4RYan98QGclTIOz6SrJTQ5Kf+Dv3XFtwjL6Ph6KWo674JYvqDnFMSD2NC0MghguETO6LLzt7uEngEPeMGo1JCf5FG6GzHE3sOjR9djJreO8BLYe30RGQ73LlSCOmU4olGriC71fpy4yKVEJrUzD3gaAuqBH9kK2YcOQ/e/u9hJJlwtLksNb1dj/ctXNrldQnwikLOZ5UQeiOAeWXsZxkynK89vgVL374SocE/OtqWJzoUdyVGbiK2sM7nnvA5a6GbWAaNCHwvB2/8EJbsuRGt+zbClbZUS1eUQP/JTeFFZ0hBjwsiP/HWw1roe2kolAncEAckxi+6IbwNS3dcihkn/5c6fPYQ6O85OtCy5DGB41DjLewxsxT6TAA3MGtNAbjwxMsTpWHMP3AHluz5S3iSBsrEisDLEryR/mvIpyGfC3yRxC5LoR+m806YwPXzozVCRQgNvo7T376S9m7zBMMnXuxvbX/DLfAIuIuP/1gJfRmAtYzaAjIAN1DaRRfkEa13L9x7C0RpyHAzYiqR4aXMemju3MQboB4WQhOH8sEy9rMNrpc3ZILr+57H6W9fYdgzccdj34jMWRDxuwR4xMmlZCH0zXQZByZwcQ5c1PiA053qwZI9N6H50BZwSun4t5hK7IvXz3yYmORSvRkMhG4EcLfDbeTA9VgZ1atoOv4TtO+8Ft5E4WrT7I6Sx0fiGWqNxwWhgDuXj9NC300nwzOBi3BAynr4xB/bj/bOq9EQfq7YLj8GsIMITIQuByeFJnOz/8bB8+ciF3bnzCLIMbTu+xrmfrgZnJrjvgzTpSpQ63WXXabnpNAP0hshE7g+fnRhHpuZ1fUztO26XrPhFDLL6iS5+fnd5XurTglNpg5f6tC5J5KmZsMhgsO70P7OVQgOdZJZVv+CMty5fJwQmvzMTJf+4nqMuXNmEDMR+Ef2P7TylfYUGZiQAYoRnBD6RgBnOHvZ43AxDtyI89W9qaaLuuYd/JbWm/WZk3KxW+gQDRyxQaWDE4dRxSBSs9Zel22lHHcuH7u/5R0ATmGlMzfIafbZadL1y39Ru/O231tpxk6h5wP4io3nmxyZehrO85En/OqXrbZiZ7nBA6zWzyBoPrPzSW3QREVObW/oiR8aPoldXeJcuhwlG5Kco+6cDrLy2K9ytpgM9NohNEfdOSZXDpqeYgBxGL+Wn4pRZ5j7M7LDdJBlJCcvE7IRLTIXZyI0WRjrrZwtHhVqnYpZt2w0fDKrPdpPy7rYwMidA0CWnPlG/kb1FNX0363Vb30bgDkWz1E2XD+nZU8YQNJuOSWrao0KNWB++GlFaLJA0yYml43RNQK4ASa9mcwE2pKzhSO92ZqLY+Wb32euEtQcmslg487dkb8KutqgWo5DmhX6bLr4KRsSHLhhJjdAshzyT3O2iIDaaP0XNiv0IyxLFXhL6SlDbETe3406U7HlSs2cgqTXz7PedHlo1UZJJkI/RVftHcerQq21J/5qVGjPhBuFkxSpNnKAVKGaQGWWfUFuo1dBgkYL7L/OwpSqNrKR7wHImSyohlTAVxmhZ2aTkkwos9rIBsLZ1Rb1qlh15/IxIjTbSlCD1UYW+Ccyj0h/uNqg2D6Nqlyhl9IUFRNIaspMtZEJ9gL495zDXMSds/8XLlfoh5lNldPiGczcuVuRdxfQTIYDzZcj9CUALra/6cLYVW1UBtuyKw+M4Ve1mIYTlBKa9OKHWFy1Brv0lESXrs9BOcW5m0Kpq/prAKc51noeTlUbFeAH9FFMY5A4MxmgOMVkQpNlHe5hctmEFLP0VGTCdfF0qO0gkwl9Ny27ZYJ2A2Tjzt1HfecxtPSUw5M+igm9CMDfOdv0OKyqjchqXQD+NWeLG1Drnf+Fiwm9hVklKLv0FGiiIuepNU65c/kUukKysPQVzjc9CqtqIxqZe0q/gaSm1CAbe5UvNM+0ElRi5s4pNNY8DrklzGKTskEBof8CALNVFDWR2VzrVpo9GUNz54yVOFtCL3SQ3pHZwK7aKEbzgOMI5gthzKIX+uuslqoE2/QUubF36zdoPjOzObyjZIWeSwMsTNASrQkmQh+jAbFxaLURa7JCs6sEZZeeAq02ynnQlWpjesoIvL/5rrlicMVpvLupF+AdN1xaEQybaiNSN/eEfoNWbeSvjNCiGFiWEgPLztS+iJKCHN+NzPDrkGJvQ1VsXiKHXXpqYiWoDdVGVhDpuJ+EDUWO90AMrtReUNPIRN9CeuC3kJNFFzk1BMPi8SdpbfMYdlQbWUFbmzTU9iR56svsYueR4u8iFf4F5MQB803FOfBHmdjmJA3tHhnbIgLKAtm2kp/QOcYfVpZtunuynUT/UgTm3Qff7K+CE2pMfTlGxeOg6+kd0W+wq9rICtnmy1pL3RU6F4GWByF4Wgw1qQ1M2FQbkUd13p+zxWdftZEVskKX/SxR3tUI/9x7IHjKXFFNYRbPAI2h5zyF18n0lBHKMh35cEIAvjm3l2VGNJHZVBvtpss7jKH1ZBurjaxgyHToIT3bO+umyXdK0zAoGzZCn3FkkJ4ygmHToccV+jQEX1vRzxlWGz0N4Hf6DVpNcxU9cs2U6dDjaSycI9CqjWJMenNmwhQPF/WbqwjTpiOLGFwOXszL4ap0aQc2fJ8+JGe8eUbpKSNk1egxv4YkDzHUkbNFc+fYpKfIU3v+Wb9BdbDayAqa0MP7r87kp+CNIAaWje/NrtoItMJ1QL+hUtG5UugVMW2nR2+Io3+rWjyDTbXR+9RsjKHFmT3VKbT+vnzCbL6Q433gXQ1QYgNj6Sk+2ASh8TTwoWZwgVngRJ+2XZUSUKJdkPv2Qe57lzy33+x3vw36gKtQXe5cPvlCm4YT6sBHOLjb1kKccw744CeKn6ppBbDoMqjpGDKHnkPm4G+0H8AAL9CHfY3BotrICnqhTZsOgnfmjRDmtZLuXfYxnDsId9t6uFouQGr3TyB1v1XGUZphyk27uVGR9JQR9KqYGrRkEQKLDImsh/M2wLtqI7wrbh4zMZPwYzrcHkOrz6gydy4fvTKWTIcdiM3nwXf+ZvDBoqFxEjC6S7+BVBpZmQzPClu8Djshtt235l4IM04vdNbN1OcfpcLpKSPYZjrshHMF4Ov4OsSm5fqzkmD+d/UbtCpQhtVGVqgq05GD4IJ35UbiImZduNxFpCpQbWSFMaGH91+dokPa6oGI3bHJxde2vEATrmNUQ3rKCPlftWrMB+UgJ/r+1n/B/ZfnxGK8lak2sgKn9j2vP3w7XSm30rxOS7l+nbOsQ+NFU0PVAuSHxivpeShU2IfzazKmA/lCV8J0xOmqL4/krzAwncgXmqXn0QvgMRqBc+YBVlWEeOcDv0JsJKndaubOmdH9qU8uxKqzFsDlcizh9j7tvVvz1/ycznAdHTnZkdVkUk1dbQDr1p6Fay/vQGODucqkArxKpzv/Jn/dorKZwjfDfKHJ/MKxAju3W8T6S1bhhmvXIBgwVT4t05lQD01YftIMU1hoobm5Wf8+pV8qUpYVvLv/GP7vdztRXxvAovllz7wYoetgXEfnXXfZ8m39rbacphLkC52hsV6PfmMimcYrb+zH4WNhrFreqvX0IhCv5dtUYNKTB229piksdKFBbFHP48XX3sOGr/wb9h+c4G6TlVxI2VILjbANFD7Dny6FhJ70aYoneyO4+fb/xKtv7idvX6LPWyFLAf0of/rvx4xTSOhSgxYpkUz/1+2bf3n2k8+8cSGA39r6XNFpSiFjW0zoKO21j5IHDCiKgu/84FnwPI/161b9qetYkkI9Ot9D6KaTPefSCTg5z5/77n9sw4dHevAxkzOZ6dhD54bPp/MQC07ckCQZz2zvLPTRx+goZDqIap8D8Hy5ttfvnSL5pEoB4P8BtHbLnv5CytAAAAAASUVORK5CYII="/></svg>
+                </div>
+                <h3  class="small-state small-state--color small-state--position">Design</h3>
+                <p class="small-text small-text--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, distinctio doloremque,pudiandae saepe?</p>
+            </li>
+            <li class="inner-services__item">
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="158.688" height="125.715"><path d="M95.044 56.565a3.767 3.767 0 002.948-3.553v-8a3.768 3.768 0 00-2.948-3.553l-6.42-1.2a5.637 5.637 0 01-3.894-3.4l-1.858-4.536a5.636 5.636 0 01.35-5.158l3.683-5.382a3.767 3.767 0 00-.427-4.6l-5.658-5.657a3.766 3.766 0 00-4.6-.427l-5.313 3.635a5.584 5.584 0 01-5.149.333l-4.645-1.935a5.66 5.66 0 01-3.4-3.9l-1.174-6.266A3.767 3.767 0 0052.986.017h-8a3.767 3.767 0 00-3.553 2.949l-1.168 6.225a5.625 5.625 0 01-3.4 3.893l-4.719 1.945a5.608 5.608 0 01-5.153-.342l-5.239-3.584a3.766 3.766 0 00-4.6.428l-5.657 5.657a3.767 3.767 0 00-.427 4.6l3.591 5.249a5.615 5.615 0 01.343 5.155l-1.934 4.7a5.635 5.635 0 01-3.894 3.4L2.93 41.463a3.767 3.767 0 00-2.948 3.553v8a3.767 3.767 0 002.948 3.553l6.246 1.171a5.635 5.635 0 013.894 3.4l1.935 4.7a5.615 5.615 0 01-.343 5.155l-3.591 5.248a3.774 3.774 0 00.427 4.6l5.658 5.65a3.763 3.763 0 004.6.43l5.238-3.58a5.6 5.6 0 015.153-.34l4.718 1.94a5.626 5.626 0 013.4 3.89l1.168 6.23a3.77 3.77 0 003.553 2.95h8a3.77 3.77 0 003.553-2.95l1.174-6.27a5.642 5.642 0 013.4-3.9l4.644-1.94a5.587 5.587 0 015.149.33l5.314 3.64a3.765 3.765 0 004.6-.43l5.658-5.65a3.772 3.772 0 00.427-4.6l-3.683-5.383a5.634 5.634 0 01-.35-5.157l1.858-4.535a5.633 5.633 0 013.894-3.4zm-46.135 5.419a12.972 12.972 0 1112.935-12.972 12.956 12.956 0 01-12.936 12.972zm99.895 32.481a6.29 6.29 0 013.12-4.27l4.737-2.27a3.762 3.762 0 001.929-4.19l-1.881-7.023a3.767 3.767 0 00-3.768-2.669l-5.852.449a6.078 6.078 0 01-4.7-1.935l-1-1a21.867 21.867 0 00-2.821-2.438 5.734 5.734 0 01-2.253-4.675l.309-4.038a3.766 3.766 0 00-2.668-3.768l-7.02-1.881a3.768 3.768 0 00-4.2 1.929l-2.161 4.507a6.932 6.932 0 01-4.232 3.335l-3.944 1.27a6.12 6.12 0 01-5.236-.52l-3.513-2.403a3.766 3.766 0 00-4.6.428l-5.138 5.138a3.767 3.767 0 00-.427 4.6l2.835 4.144a6.792 6.792 0 01.736 5.314l-.753 3.04a6.409 6.409 0 01-3.166 4.26l-4.163 1.99a3.78 3.78 0 00-1.928 4.2l1.88 7.02a3.779 3.779 0 003.768 2.67l4.49-.35a6.039 6.039 0 014.765 2.19 19.97 19.97 0 001.673 1.81 20.231 20.231 0 001.541 1.46 6.091 6.091 0 012.176 4.78l-.338 4.42a3.755 3.755 0 002.668 3.76l7.02 1.88a3.759 3.759 0 004.194-1.93l1.854-3.86a6.333 6.333 0 014.265-3.15l4.173-1.07a6.659 6.659 0 015.3.68l5.107 3.5a3.763 3.763 0 004.6-.43l5.139-5.14a3.756 3.756 0 00.427-4.59l-3.46-5.06a6.631 6.631 0 01-.684-5.3zm-20.367 1.9a8.382 8.382 0 11-.013-11.84 8.369 8.369 0 01.012 11.84z" fill="#487fbc" fill-rule="evenodd"/></svg>
+                </div>
+                <h3  class="small-state small-state--color small-state--position">Development</h3>
+                <p class="small-text small-text--white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, distinctio doloremque,pudiandae saepe?</p>
+            </li>
+            <li class="inner-services__item">
+                <div class="icon">
+                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="134"><image data-name="Shape 28" width="95" height="134" xlink:href="data:img/png;base64,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"/></svg>
+                </div>
+                <h3  class="small-state small-state--color small-state--position">Rocket Science</h3>
+                <p class="small-text small-text--white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, distinctio doloremque,pudiandae saepe?</p>
+            </li>
+        </ul>
+    </section>
+    <section class="team">
+    <h2 class="average-state average-state--black">Meet our beautiful team</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--blue">
+        We are a small team od designers and developers, who help brands with big ideas.
+        </p>
+        <ul class="team-menu">
+            <li class="team-menu__item">
+                <div class="team-menu__item-image"></div>
+                <h3 class="small-state small-text--team">anne hathaway</h3>
+                <a href="#" class="team-menu__item-ref">CEO/Marketing Guru</a>
+                <p class="small-text small-text--darkblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam beatae cupiditate distinctio, earum, excepturi in iste iusto molestiae nemo officia officiis optio perspiciatis quidem rerum suscipit tempore, temporibus unde?</p>
+               <div class="refs-wrapper">
+                <ul class="refs-menu">
+                    <li class="refs-menu__item"></li>
+                    <li class="refs-menu__item"></li>
+                    <li class="refs-menu__item"></li>
+                </ul>
+               </div>
+            </li>
+            <li class="team-menu__item">
+                <div class="team-menu__item-image"></div>
+                <h3 class="small-state small-text--team">kate upton</h3>
+                <a href="#" class="team-menu__item-ref">Creative Director</a>
+                <p class="small-text small-text--darkblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam beatae cupiditate distinctio, earum, excepturi in iste iusto molestiae nemo officia officiis optio perspiciatis quidem rerum suscipit tempore, temporibus unde?</p>
+                <div class="refs-wrapper">
+                    <ul class="refs-menu">
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="team-menu__item">
+                <div class="team-menu__item-image"></div>
+                <h3 class="small-state small-text--team">olivia wilde</h3>
+                <a href="#" class="team-menu__item-ref">Lead Designer</a>
+                <p class="small-text small-text--darkblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam beatae cupiditate distinctio, earum, excepturi in iste iusto molestiae nemo officia officiis optio perspiciatis quidem rerum suscipit tempore, temporibus unde?</p>
+                <div class="refs-wrapper">
+                    <ul class="refs-menu">
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="team-menu__item">
+                <div class="team-menu__item-image"></div>
+                <h3 class="small-state small-text--team">ashley greene</h3>
+                <a href="#" class="team-menu__item-ref">CEO / Developer</a>
+                <p class="small-text small-text--darkblue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam beatae cupiditate distinctio, earum, excepturi in iste iusto molestiae nemo officia officiis optio perspiciatis quidem rerum suscipit tempore, temporibus unde?</p>
+                <div class="refs-wrapper">
+                    <ul class="refs-menu">
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                        <li class="refs-menu__item"></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="skills">
+        <h2 class="average-state average-text--blue">we got skills</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur culpa cum deleniti eligendi error esse est, <br>exercitationem explicabo illum ipsa mollitia nihil non quidem quisquam quod tenetur velit voluptatum.</p>
+        <div class="inner-container">
+            <ul class="rating">
+                <li class="rating__item">
+                    <div class="rating__item-block">
+                        <h2 class="rating__item-percent">
+                            90%
+                        </h2>
+                    </div>
+                    <h3 class="rating__name">web design</h3>
+                </li>
+                <li class="rating__item">
+                    <div class="rating__item-block">
+                        <h2 class="rating__item-percent">
+                            75%
+                        </h2>
+                    </div>
+                    <h3 class="rating__name">html/css</h3>
+                </li>
+                <li class="rating__item">
+                    <div class="rating__item-block">
+                        <h2 class="rating__item-percent">
+                            70%
+                        </h2>
+                    </div>
+                    <h3 class="rating__name">graphic design</h3>
+                </li>
+                <li class="rating__item">
+                    <div class="rating__item-block">
+                        <h2 class="rating__item-percent">
+                            85%
+                        </h2>
+                    </div>
+                    <h3 class="rating__name">ui/ux</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="portfolio">
+        <h2 class="average-state average-text--blue">our portfolio</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur culpa cum deleniti eligendi error esse est, <br>exercitationem explicabo illum ipsa mollitia nihil non quidem quisquam quod tenetur velit voluptatum.</p>
+        <ul class="portfolio-menu">
+            <li class="portfolio-menu__item">
+                <a href="#" class="portfolio-menu__item-ref">
+                    all
+                </a>
+            </li>
+            <li class="portfolio-menu__item">
+                <a href="#" class="portfolio-menu__item-ref">
+                    web
+                </a>
+            </li>
+            <li class="portfolio-menu__item">
+                <a href="#" class="portfolio-menu__item-ref">
+                    apps
+                </a>
+            </li>
+            <li class="portfolio-menu__item">
+                <a href="#" class="portfolio-menu__item-ref">
+                    icons
+                </a>
+            </li>
+        </ul>
+       <div class="portfolio-inner">
+            <ul class="portfolio-slides">
+                <li class="portfolio-slides__item orange">
+                    <img class="portfolio-slides__item-pic" src="build/img/png-mobile/1.png" alt="" width="100%">
+                    <h5 class="portfolio-slides__item-name">isometric perspective mock-up</h5>
+                </li>
+                <li class="portfolio-slides__item red">
+                    <img class="portfolio-slides__item-pic" src="build/img/png-mobile/2.png" alt="" width="100%">
+                    <h5 class="portfolio-slides__item-name">time zone app ui</h5>
+                </li>
+                <li class="portfolio-slides__item black">
+                    <img class="portfolio-slides__item-pic" src="build/img/png-mobile/3.png" alt="" width="100%">
+                    <h5 class="portfolio-slides__item-name">viro media players ui</h5>
+                </li>
+                <li class="portfolio-slides__item blue">
+                    <img class="portfolio-slides__item-pic" src="build/img/png-mobile/4.png" alt="" width="100%">
+                    <h5 class="portfolio-slides__item-name">blog/magazine flat ui kit</h5>
+                </li>
+            </ul>
+           <button class="portfolio-btn">LOAD MORE PROJECTS</button>
+       </div>
+    </section>
+    <section class="about">
+        <h2 class="average-state average-text--white">what people say about us</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--white">Our client love us!</p>
+        <div class="about-wrapper">
+            <ul class="about-range">
+                <li class="about-range__item">
+                    <div class="about-range__item-pic"></div>
+                    <div class="about-range__item-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptas.</p>
+                        <h5>Chanel Iman</h5>
+                        <span>Ceo of Pinterest</span>
+                    </div>
+                </li>
+                <li class="about-range__item">
+                    <div class="about-range__item-pic"></div>
+                    <div class="about-range__item-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptas.</p>
+                        <h5>Adriana Lima</h5>
+                        <span>Founder of Instagram</span>
+                    </div>
+                </li>
+                <li class="about-range__item">
+                    <div class="about-range__item-pic"></div>
+                    <div class="about-range__item-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptas.</p>
+                        <h5>Anne Hathaway</h5>
+                        <span>Lead Designer</span>
+                    </div>
+                </li>
+                <li class="about-range__item">
+                    <div class="about-range__item-pic"></div>
+                    <div class="about-range__item-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptas.</p>
+                        <h5>Emma Stone</h5>
+                        <span>Co-Founder of Shazam</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="touch">
+        <h2 class="average-state average-text--white">get in touch</h2>
+        <div class="average-block"></div>
+        <p class="average-text average-text--white">Pensilvania, Washington, United States of America</p>
+        <div class="touch-wrapper">
+            <form class="form" action="#">
+                <div>
+                <label><input type="text" placeholder="Your Name"></label>
+                <label><input type="text" placeholder="Your Email"></label>
+                </div>
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="send message">
+            </form>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <ul class="footer-menu">
+            <li class="footer-menu__item"><a href="#">Facebook</a></li>
+            <li class="footer-menu__item"><a href="#">Twitter</a></li>
+            <li class="footer-menu__item"><a href="#">Google+</a></li>
+            <li class="footer-menu__item"><a href="#">Linkedin</a></li>
+            <li class="footer-menu__item"><a href="#">Behance</a></li>
+            <li class="footer-menu__item"><a href="#">Dribble</a></li>
+            <li class="footer-menu__item"><a href="#">GitHub</a></li>
+        </ul>
+    </footer>
+</div>
 <script src="build/js/min.js"></script>
 </body>
 </html>

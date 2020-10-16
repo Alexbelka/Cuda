@@ -1,0 +1,31 @@
+.rating{
+  display: grid;
+  grid-template-columns: repeat(4,22%);
+  grid-template-rows: minmax(40px,auto);
+  grid-column-gap:4%;
+  margin:73px auto;
+}
+
+.rating__item{}
+
+.rating__item-block{
+  width:169px;
+  height: 177px;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:10px solid rgb(223,232,237);
+  margin: 0 auto 25px;
+}
+
+
+.rating__item-percent{
+text-transform:uppercase;
+}
+
+.rating__name{
+  text-align: center;
+  text-transform: uppercase;
+}
+

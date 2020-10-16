@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  position: relative;
+
+}
+
+.container{
+  width: 1170px;
+  margin:auto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+ text-decoration:none;
+}
+
+h1{
+  margin:0;
+}
+
+.average-state{
+  font-family: "Titillium Web",sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.average-state--white{
+  color:rgb(255,255,255);
+}
+
+.average-state--black{
+  color:rgb(60,71,97);
+}
+
+.average-state--blue{
+  color:rgb(60,71,97);
+}
+
+.average-text--black{
+  color:rgb(0,0,0);
+}
+
+.average-block{
+  width: 87px;
+  height: 4px;
+  background-color: rgb(0,0,0);
+  opacity: 15%;
+  margin: 21px auto 23px;
+}
+
+
+.small-text{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.small-text--white{
+  color:rgb(255,255,255);
+}
+
+.small-text--darkblue{
+  color:rgb(83,94,117);
+}
+
+
+.small-text--team{
+  color:rgb(60,71,97);
+}
+
+.average-text{
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.average-text--white{
+  color:rgb(240,251,249);
+}
+
+.average-text--blue{
+  color:rgb(60,71,97);
+}
+
+

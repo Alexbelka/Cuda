@@ -1,0 +1,32 @@
+.footer{
+  min-height: 112px;
+  background-color: rgb(52,75,142);
+}
+
+.footer-menu{
+  min-height: inherit;
+  width: 945/1140*100%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu__item{
+  min-height: inherit;
+}
+
+.footer-menu__item > a{
+  display: block;
+  width: 100%;
+  padding: 0 10px 0;
+  min-height: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height:112px;
+  color:rgb(255,255,255);
+}
+
+.footer-menu__item > a :hover{
+  background-color: rgb(48,186,231);
+}
+
